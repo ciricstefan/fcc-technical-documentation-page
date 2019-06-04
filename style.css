@@ -36,3 +36,34 @@ h3 {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 1343px) {
+    ul {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1020px) {
+    ul {
+        width: 25%;
+    }
+}
+
+@media (max-width: 810px) {
+    ul {
+        width: 35%;
+    }
+}
+
+@media (max-width: 570px) {
+    ul {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    ul li a {
+        text-align: center;
+        float: none;
+    }
+}
