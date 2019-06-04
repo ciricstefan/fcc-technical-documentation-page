@@ -11,11 +11,7 @@ ul {
 }
 
 li {
-    border-bottom: 1px solid black;
-}
-
-li:last-child {
-    border-bottom: none;
+    border-top: 1px solid black;
 }
 
 li a{
@@ -58,8 +54,9 @@ h3 {
 @media (max-width: 570px) {
     ul {
         width: 100%;
-        height: auto;
+        height: 250px;
         position: relative;
+        border: 2px solid black;
     }
 
     ul li a {
